@@ -2,3 +2,10 @@ node_modules
 .DS_Store
 build
 .env
+package-lock.json
+/.idea/.gitignore
+/.idea/dataSources.xml
+/.idea/mancala.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
