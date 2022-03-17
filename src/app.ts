@@ -5,9 +5,6 @@ import {connectMongo} from "./lib/utils/mongoUtil";
 import {handleErrors} from "./lib/error/errorHandlers";
 import {APPLICATION_CONFIG} from "./lib/config/applicationConfig";
 
-// todo test yazmayı unutma.
-// todo uygulama düzgün çalışıyor mu oynayıp kontrol et :)
-
 const app = express();
 // Adding winston logger middleware for every request.
 app.use(loggerMiddleware);
